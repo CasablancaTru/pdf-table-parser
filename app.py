@@ -125,7 +125,6 @@ async def parse_pdf(file: UploadFile = File(...)):
                 "edge_min_length": 20,
                 "min_words_vertical": 3,
                 "min_words_horizontal": 1,
-                "keep_blank_chars": False,
             }) or []
 
             for tb in tables:
